@@ -9,5 +9,7 @@ class Solution:
             if len(word1) < len(word2):
                 z += word2[x+1:]
             return z
-                
-       
+s1="kara"
+s2="mohamed"          
+s=Solution
+print(s.mergeAlternately(s,s1,s2))
